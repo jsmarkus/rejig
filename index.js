@@ -1,4 +1,7 @@
-var Parser = require("jison").Parser;
+var Jison = require("jison");
+var Parser = Jison.Parser;
+
+Jison.print = function () {console.log.apply(console, arguments)};
 
 var grammar = {
     lex: {
