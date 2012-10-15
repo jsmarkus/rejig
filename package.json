@@ -2,7 +2,7 @@
 	"name":"rejig"
 	, "version":"0.0.2"
 	, "description":"Rephrase text with inline synonims"
-	, "dependencies":{
+	, "devDependencies":{
 		"jison":"0.3.12"
 	}
 }
